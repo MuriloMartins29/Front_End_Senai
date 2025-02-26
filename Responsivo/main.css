@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box {
+    width: 330px;
+    height: 330px;
+    background-color: rgb(108, 106, 201);
+}
+
+@media screen and (max-width: 1023px) {
+    
+    /* Comentario sobre o media screen */
+    
+    .container{
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        margin: 8px 0px;
+    }
+}
+

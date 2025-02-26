@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title>Div Class & ID</title>
+	
+		<style>
+
+		body{
+		font-family: Roboto slab, serif;
+		}
+		
+		#container{
+			width:1024px;
+			margin:0 auto;
+		}
+
+		@media screen and (max-width: 1023px) {
+    
+			.conteudo{
+				display: flex;
+				flex-direction: column;
+				width: 460px;
+				height: 1524px;
+				margin: 0 auto;
+			}
+			.box {
+				width: 580px;
+        		height: 458px;
+        		margin: 8 auto;
+			}
+    }
+
+		h2{
+			color: #C12A21;
+		}
+
+		.p1{
+			color: #212529;
+		}
+		
+		.box{
+			width:300px;
+			background: #C12A21;
+			color: #fff;
+			padding: 10px 15px;
+			border-radius: 15px;
+		}
+
+		h3 {
+		text-align: center;
+		font-size: 24px;
+		}	
+
+		img{	
+			width: 100%;
+			border-radius: 15px;
+		}
+
+		.conteudo{
+		display: flex;
+		justify-content: space-between;
+		}
+		
+		.p2 {
+		font-size: 18px;
+		}
+
+		.botao{
+		width: 100%;
+		display: block;
+		background: #fff;
+		text-align: center;
+		text-decoration: none;
+		color: #696969;
+		font-weight: 900;
+		padding: 10px 0;
+		border-radius: 15px;
+		font-size: 18px;
+		
+		}
+		
+		.botao:hover{
+		color: #C12A21;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="titulo">
+				<h2>Novidades do Bob's
+</h2>
+				<p class="p1">Fique por dentro de tudo que rola por aqui.
+
+</p>
+			</div>
+
+			<div class="conteudo">
+				<div class="box">
+				<h3>Refrescamento Global</h3>
+				<img src="https://bobs.com.br/media/filer_public_thumbnails/filer_public/1c/72/1c7272d5-da7f-4dd8-93e4-e2c3c3a0afd2/banner-refrescamento-320x230_1.png__320x230_q85_crop_subsampling-2_upscale.jpg">
+				<p class="p2">Abaixe sua temperatura. Peça uma sobremesa Bob’s e entre no Movimento pelo Refrescamento Global.</p>
+			
+			<a class="botao" href="#">VEJA MAIS</a>
+			</div>
+			<div class="box">
+				<h3>Sobremesas Goiabinha Piraquê</h3>
+				<img src="https://bobs.com.br/media/filer_public_thumbnails/filer_public/18/02/1802530e-bafc-44d3-9b17-b012b8758f8e/banner-piraque-320x230.png__320x230_q85_crop_subsampling-2_upscale.jpg">
+				<p class="p2">Preparadas com goiabada cremosa e os Originais Biscoitos Goiabinha Piraquê.</p>
+<a class="botao" href="#">VEJA MAIS</a>
+			</div>
+			<div class="box">
+				<h3>Churras de Responsa</h3>
+				<img src="https://bobs.com.br/media/filer_public_thumbnails/filer_public/0b/bb/0bbbac7d-c469-498a-9626-27a13ee96684/banner-churras-320x230-2.png__320x230_q85_crop_subsampling-2_upscale.jpg">
+				<p class="p2">Os sanduíches trazem hambúrguer 100% fraldinha e ingredientes típicos de churrasco.</p>
+<a class="botao" href="#">VEJA MAIS</a>
+			</div>
+			</div>		
+		</div>
+	</body>
+</html>
